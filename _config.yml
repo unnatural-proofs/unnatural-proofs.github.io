@@ -51,6 +51,12 @@ highlighter: rouge
 include: ['_pages']
 exclude: [vendor]
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  
+
 # -----------------------------------------------------------------------------
 # Other settings
 # -----------------------------------------------------------------------------
