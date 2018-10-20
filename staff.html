@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>Staff</h1>
+
+<ul>
+  {% for author in site.authors %}
+    <li class='list-unstyled'>
+      <h3><a href="{{ author.url }}">{{ author.name }}</a></h3>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

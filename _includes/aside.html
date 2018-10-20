@@ -1,0 +1,61 @@
+<!-- <div class="p-3 mb-3 bg-light rounded">
+    <h4 class="font-italic">About</h4>
+    <p class="mb-0">
+        TODO
+    </p>
+</div> -->
+
+<div class="p-3">
+    <h4 class="font-italic">Categories</h4>
+    <ol class="list-unstyled mb-0">
+        {% for category in site.categories %}
+        <li>
+            {% capture category_name %}{{ category | first }}{% endcapture %}
+            <a href="{{site.baseurl}}/categories/#{{category_name|slugize}}">{{category_name}}</a>
+            {% assign counter = 0 %}
+            {% for post in site.categories[category_name] %}
+            {% assign counter=counter | plus:1 %}
+            {% endfor %}
+            <span class="category-counter">({{ counter }})</span>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+
+<div class="p-3">
+    <h4 class="font-italic">Blogroll</h4>
+    <ol class="list-unstyled">
+    <li><a href="https://gilkalai.wordpress.com/">Combinatorics and more</a></li>
+    <li><a href="https://terrytao.wordpress.com/">What's new</a></li>
+    <li><a href="https://rjlipton.wordpress.com/">Gödel’s Lost Letter and P=NP</a></li>
+    <li><a href="https://gowers.wordpress.com/">Gowers's Weblog</a></li>
+    <li><a href="https://mycqstate.wordpress.com/">MyCQstate</a></li>
+    <li><a href="https://windowsontheory.org/">Windows on Theory</a></li>
+    <li><a href="http://www.offconvex.org/">Off The Convex Path</a></li>
+    <li><a href="https://www.scottaaronson.com/blog/">Shtetl-Optimized</a></li>
+    <li><a href="https://tcsmath.github.io/">tcsmath</a></li>
+    </ol>
+</div>
+
+<div class="p-3">
+    <h4 class="font-italic">Tags</h4>
+    <ol class="list-unstyled mb-0">
+        {% for tag in site.tags %}
+        <span class="tag-cloud-item">
+            {% capture tag_name %}{{ tag | first }}{% endcapture %}
+            {% assign counter = 0 %}
+            {% for post in site.tags[tag_name] %}
+            {% assign counter=counter | plus:1 %}
+            {% endfor %}
+            <a
+            href="{{site.baseurl}}/tags/#{{tag_name|slugize}}"
+            style="font-size: {{ counter | times: 10 | plus: 80 }}%">{{tag_name}}</a>
+        </span>
+        {% endfor %}
+    </ol>
+</div>
+
+<div class="p-3 font-italic">
+    Inspired by the <a href="https://getbootstrap.com/docs/4.0/examples/blog/">Blog template</a>
+    for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.
+</div>

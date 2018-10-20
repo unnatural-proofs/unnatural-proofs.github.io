@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+    <span class="post-date font-italic">
+    {{ page.date | date_to_long_string }}
+    </span>
+    {% assign author = site.authors | where: 'short_name', page.author | first %}
+    <!-- {% if author %}
+    - <a href="{{ author.url }}">{{ author.name }}</a>
+    {% endif %} -->
+    - <span class="post-categories">
+        {% if post %}
+            {% assign categories = post.categories %}
+        {% else %}
+            {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    </span>
+    - <span class="post-tags">
+        {% if post %}
+            {% assign tags = post.tags %}
+        {% else %}
+            {% assign tags = page.tags %}
+        {% endif %}
+        {% for tag in tags %}
+        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    </span>
+</p>
+
+{{ content }}
+
+<hr>
+
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+var disqus_shortname  = '{{ site.disqus_shortname }}';
+var disqus_identifier = '{{ page.id }}';
+var disqus_title      = "{{ post.title }}";
+
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}

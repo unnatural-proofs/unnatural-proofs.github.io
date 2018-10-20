@@ -1,0 +1,56 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: in search of unnatural proofs
+description: complexity theory and more
+
+url: http://unnatural-proofs.github.io
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+disqus_shortname: unnaturalproofs
+permalink: /:year/:title/
+
+# Comments
+disqus_shortname: unnaturalproofs
+
+# -----------------------------------------------------------------------------
+# Collections and Defaults
+# -----------------------------------------------------------------------------
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Includes & excludes
+include: ['_pages']
+exclude: [vendor]
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------

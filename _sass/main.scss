@@ -1,0 +1,33 @@
+body {  
+    margin-right: auto;
+    margin-left: auto; 
+    max-width: 900px; 
+    padding: 30px; 
+    padding-top: 10px; 
+}
+
+.blog-header-logo {
+    font-size: 2em;
+}
+
+.blog-subtitle {
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+} 
