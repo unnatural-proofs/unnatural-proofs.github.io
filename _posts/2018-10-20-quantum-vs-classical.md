@@ -18,9 +18,9 @@ $$
 $$
 </div>
 
-I really don't want to rant about the press good results receive because the results themselves are great---but the way traditional press is interpreting this is insane.
+I really don't like to rant about the press good results receive because the results themselves are great---but the way traditional press is interpreting this is insane.
 
-Firstly, this is one of those late reactions from the press. (BTW did you know that during the [crash of 1929](https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929) the ticker tape was hours late!) This paper has been on the arXiv since April 2017 and was the subject of the plenary lecture at QIP 2018. 
+Firstly, this is one of those late reactions from the press. (BTW did you know that during the [crash of 1929](https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929) the ticker tape was hours late!) This paper has been on the arXiv since April 2017 and was the subject of a [plenary lecture](https://collegerama.tudelft.nl/Mediasite/Showcase/qip2018/Presentation/53e90567101440b1a9eeb308b6bd48211d) at QIP 2018. 
 
 Secondly, the result is that there exists a *relational problem* which can be solved by *bounded fan-in, bounded fan-out, constant-depth quantum circuits* but cannot be solved by *bounded fan-in, unbounded fan-out, sub-logarithmic-depth classical circuits*. Yes, you heard me right, there is no oracle involved. This is an amazing result!!
 
