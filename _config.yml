@@ -12,6 +12,7 @@ url: http://unnatural-proofs.github.io
 
 disqus_shortname: unnaturalproofs
 permalink: /:year/:title/
+future: true
 
 # Comments
 disqus_shortname: unnaturalproofs
