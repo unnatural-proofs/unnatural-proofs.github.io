@@ -18,7 +18,7 @@ $$
 $$
 </div>
 
-**Update:** See [this comment](https://twitter.com/quantum_aram/status/1053732821553033216) by [@quantum_aram](https://twitter.com/quantum_aram). (I modified the wording of the post to reflect that this is what *I* think. As mentioned in the comment, Bravyi et al. *proved* that a class of quantum circuits are better than a class of classical circuits at a certain problem. I was only trying to point out the caveats in their result, not disputing the result! (I am not that crazy!!))
+**Update:** See [this comment](https://twitter.com/quantum_aram/status/1053732821553033216) by [@quantum_aram](https://twitter.com/quantum_aram). I modified the wording of the post to reflect that this is what *I* think. As mentioned in the comment, it is wholly possible that there exist people for whom computation means constant-depth computation and problem means relational problem, and for them the result of Bravyi et al. unconditionally shows that quantum computers are better than classical computers.
 
 I really don't like to rant about the press good results receive because the results themselves are great---but the way traditional press is interpreting this is insane.
 
