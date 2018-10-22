@@ -18,6 +18,8 @@ $$
 $$
 </div>
 
+**Breaking News:** [IBM's Team Proved Quantum Computers Do 'Impossible' Things](https://interestingengineering.com/ibms-team-proved-quantum-computers-do-impossible-things)
+
 **Update:** See [this comment](https://twitter.com/quantum_aram/status/1053732821553033216) by [@quantum_aram](https://twitter.com/quantum_aram). I modified the wording of the post to reflect that this is what *I* think. As mentioned in the comment, it is wholly possible that there exist people for whom computation means constant-depth computation and problem means relational problem, and for them the result of Bravyi et al. unconditionally shows that quantum computers are better than classical computers.
 
 I really don't like to rant about the press good results receive because the results themselves are great---but the way traditional press is interpreting this is insane.
