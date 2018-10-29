@@ -17,6 +17,6 @@ family*) then this follows from Urmila Mahadev's [breakthrough result](https://a
 
 My current approach is to show that an additive approximation to the Jones polynomial is contained in this class. But I don't know how to make it work. (I only spent half a day on it so maybe it is obvious and I just missed it.)
 
-We know how to do this for easier problems; for instance, François Le Gall, Tomoyuki Morimae, Harumichi Nishimura, and Yuki Takeuchi [showed](https://arxiv.org/abs/1805.03385) that computing orders of solvable groups (which Watrous [put](https://cs.uwaterloo.ca/~watrous/Papers/QuantumAlgorithmsSolvableGroups.pdf) in BQP) is in IP[BPP, BQP].
+We know how to do this for easier problems; for instance, François Le Gall, Tomoyuki Morimae, Harumichi Nishimura, and Yuki Takeuchi [showed](https://arxiv.org/abs/1805.03385) that computing orders of solvable groups (which John Watrous [put](https://cs.uwaterloo.ca/~watrous/Papers/QuantumAlgorithmsSolvableGroups.pdf) in BQP) is in IP[BPP, BQP].
 
 While trying to write up a different result (which is what I should be doing), I stumbled upon [Lance Fortnow's thesis](https://lance.fortnow.com/papers/files/thesis.pdf) and it is awesome! (I should prolly get back to writing...)
