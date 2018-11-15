@@ -4,7 +4,7 @@
 name: in search of unnatural proofs
 description: complexity theory and more
 
-url: http://unnatural-proofs.github.io
+url: https://unnatural-proofs.github.io
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -56,6 +56,7 @@ exclude: [vendor]
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
 
 # -----------------------------------------------------------------------------
 # Other settings

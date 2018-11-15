@@ -14,6 +14,12 @@ body {
     font-style: italic;
 }
 
+.sc {
+    font-feature-settings: 'smcp';
+}
+
+.footnote {}
+
 a:link {
     text-decoration: none;
 }
@@ -31,3 +37,13 @@ a:active {
     color: blue;
     text-decoration: none;
 } 
+
+blockquote {
+    background: #eeeeee;
+    border-left: 10px solid #999999;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+blockquote p {
+    display: inline;
+}

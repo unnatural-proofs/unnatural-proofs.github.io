@@ -4,7 +4,7 @@ title:  "What is the power of a BPP verifier with a QMA prover?"
 author: sanketh
 categories: complexity-theory
 tags: quantum-interactive-proofs open-questions
-summary: too many questions
+summary: i dunno
 comments: true
 ---
 

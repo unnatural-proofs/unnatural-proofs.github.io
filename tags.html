@@ -12,11 +12,11 @@ title: Tags
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <div id="#{{ tag_name | slugize }}"></div>
     <p></p>
-    <h3 class="tag-head">{{ tag_name }}</h3>
+    <h4 class="tag-head">{{ tag_name }}</h4>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
     </article>
     {% endfor %}
   </div>
