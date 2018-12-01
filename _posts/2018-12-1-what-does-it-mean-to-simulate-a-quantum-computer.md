@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Does It Mean to Simulate a Quantum Computer"
+title:  "What Does It Mean to Simulate a Quantum Computer?"
 author: sanketh
 categories: quantum
 tags: classical-simulation-of-quantum 
