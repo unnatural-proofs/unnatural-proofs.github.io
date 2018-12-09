@@ -4,7 +4,7 @@ title: in search of unnatural proofs
 ---
 <div class="row">
     <div class="col-md-8 blog-main">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 10 %}
         <div class="blog-post">
             <h3 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             {% assign author = site.authors | where: 'short_name', post.author | first %}
@@ -20,7 +20,9 @@ title: in search of unnatural proofs
             </p>
         </div>
         {% endfor %}
+        <a href="{{site.baseurl}}/all-posts/">All Posts</a>
     </div>
-<aside class="col-md-4 blog-sidebar">
-    {% include aside.html %}
-</aside>
+    <aside class="col-md-4 blog-sidebar">
+        {% include aside.html %}
+    </aside>
+</div>
