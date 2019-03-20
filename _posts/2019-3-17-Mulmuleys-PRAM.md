@@ -37,7 +37,7 @@ $$
 $$
 </div>
 
-Today, I will talk about one of my favorite model's computation---Mulmuley's PRAM. To keep this post short, avoid embarrassing myself, and not fail any of my assignments, I will stick to just the model. In a later post, I will talk more generally about GCT.
+Today, I will talk about one of my favorite models of computation---Mulmuley's PRAM. To keep this post short, avoid embarrassing myself, and not fail any of my assignments, I will stick to just the model. In a later post, I will talk more generally about GCT.
 
 This post is based on my notes which in turn are based on Joshua Grochow's [lec](https://www.cs.toronto.edu/~toni/Courses/PvsNP/Lectures/lecture7-1.pdf)[tur](https://www.cs.toronto.edu/~toni/Courses/PvsNP/Lectures/lecture7-2.pdf)[es](https://www.cs.toronto.edu/~toni/Courses/PvsNP/Lectures/lecture8.pdf) for CSC 2429 and Mulmuley's [GCT papers](http://gct.cs.uchicago.edu/).
 
@@ -51,7 +51,7 @@ If you have never seen $\NC$ before, don't worry, we will see a definition soon.
 
 One of the reasons we care about $\P$ vs. $\NC$ is the existence of fast parallel algorithms for combinatorial optimization problems like [max-flow](https://en.wikipedia.org/wiki/Maximum_flow_problem) which are $\P$-Complete. If $\P \neq \NC$, then there is no fast parallel algorithm for max-flow. Max-flow is a particularly nice problem because it has a strongly-polynomial time algorithm; that is, the running time is polynomial in the number of input parameters, not on the input bitlength. We don't know if this property holds for all $\P$ problems (where it makes sense to ask this question!), a major open problem in TCS is to determine if linear programming has a strongly-polynomial algorithm. 
 
-For algebraic problems like max-flow, it makes sense to ask if there is a parallel algorithm that does not use bit operations. Theorem 1 unconditionally rules out this possibility. Notice that Theorem 1 is a formal implication of $\P \neq \NC$. In fact, I would argue that it is very strong evidence in favor of it.
+For algebraic problems like max-flow, it makes sense to ask if there is a parallel algorithm that does not use bit operations. Theorem 1 unconditionally rules out this possibility. Notice that Theorem 1 is a formal implication of $\P \neq \NC$---I later argue that it is very strong evidence in favor of it.
 
 **What is a bit operation?** An operation that acts on the individual bits of the input/data like $\vee$, $\wedge$, `extract-bit`, `modify-bit`,... For this to make sense, think of the input as an array of integers. 
 
@@ -88,7 +88,7 @@ If you have ever taken a computer architecture course, then the above definition
 \end{equation}
 of algebraic RAM programs over $\ZZ$. For an input of $n$ integers and total bitlength at most $N$ we use $A_{n,N}$.
 
-**Definition** (Algebraic PRAM Program over $\ZZ$)**.** The P in PRAM stands for parallel. Here, the number of processors is $\poly(n,N)$. Every processor has private memory and can communicate with other processors using shared memory. As usual, we have EREW, CREW, and CRCW modes (if you don't know about these modes, don't worry about them.). 
+**Definition** (Algebraic PRAM Program over $\ZZ$)**.** The P in PRAM stands for parallel. Here, the number of processors is $\poly(n,N)$. Every processor has private memory and can communicate with other processors using shared memory. As usual, we have EREW, CREW, and CRCW modes (if you don't know about these modes, forget that I mentioned them.). 
 
 ### Mulmuley's Lower Bound
 
