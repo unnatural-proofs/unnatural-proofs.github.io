@@ -5,15 +5,23 @@ body {
     padding: 30px; 
     padding-top: 10px;
     background-color: #fcfcfc;
+    font-family: 'Merriweather sans', sans;
 }
 
 .blog-header-logo {
     font-size: 2em;
+    font-family: 'Merriweather sans', sans;
 }
 
 .blog-subtitle {
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
+    // font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post-content {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
 }
 
 .sc {
@@ -51,7 +59,8 @@ blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
+    // font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .year {

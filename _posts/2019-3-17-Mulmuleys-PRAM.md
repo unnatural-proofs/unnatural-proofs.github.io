@@ -124,9 +124,9 @@ The reason this conjecture might be interesting is concerning the power of $\P^\
 
 Mulmuley, Ketan. “A Lower Bound for Solvability of Polynomial Equations.” In Foundations of Software Technology and Theoretical Computer Science, 13th Conference, Bombay, India, December 15-17, 1993, Proceedings, 268–83, 1993. DOI: [10.1007/3-540-57529-4\_60](https://doi.org/10.1007/3-540-57529-4_60).
 
-———. “Lower Bounds for Parallel Linear Programming and Other Problems.” In Proceedings of the Twenty-Sixth Annual ACM Symposium on Theory of Computing, 23-25 May 1994, Montréal, Québec, Canada, 603–14, 1994. DOI: [10.1145/195058.195413](https://doi.org/10.1145/195058.195413).
+---. “Lower Bounds for Parallel Linear Programming and Other Problems.” In Proceedings of the Twenty-Sixth Annual ACM Symposium on Theory of Computing, 23-25 May 1994, Montréal, Québec, Canada, 603–14, 1994. DOI: [10.1145/195058.195413](https://doi.org/10.1145/195058.195413).
 
-———. “Is There an Algebraic Proof for P != NC? (Extended Abstract).” In Proceedings of the Twenty-Ninth Annual ACM Symposium on the Theory of Computing, El Paso, Texas, USA, May 4-6, 1997, 210–19, 1997. DOI: [10.1145/258533.258586](https://doi.org/10.1145/258533.258586).
+---. “Is There an Algebraic Proof for P != NC? (Extended Abstract).” In Proceedings of the Twenty-Ninth Annual ACM Symposium on the Theory of Computing, El Paso, Texas, USA, May 4-6, 1997, 210–19, 1997. DOI: [10.1145/258533.258586](https://doi.org/10.1145/258533.258586).
 
-———. “Lower Bounds in a Parallel Model without Bit Operations.” SIAM J. Comput. 28, no. 4 (1999): 1460–1509. DOI: [10.1137/S0097539794282930](https://doi.org/10.1137/S0097539794282930).
+---. “Lower Bounds in a Parallel Model without Bit Operations.” SIAM J. Comput. 28, no. 4 (1999): 1460–1509. DOI: [10.1137/S0097539794282930](https://doi.org/10.1137/S0097539794282930).
 
