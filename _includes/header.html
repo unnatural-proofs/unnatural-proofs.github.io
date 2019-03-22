@@ -1,4 +1,4 @@
-<header class="blog-header py-3">
+<header class="blog-header py-3 desktop-header">
     <div class="row flex-nowrap justify-content-between align-items-center">
     <div class="hidden-sm-down col-md-2 pt-1">
         <a class="text-muted" href="/feed.xml">Subscribe</a>
@@ -14,5 +14,15 @@
         {% include bg-buttons.html %}
     </div>
     </div>
+</header>
+
+<header class="blog-header py-3 mobile-header" style="display: none;">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+    <div class="col-12 col-sm-12 col-md-8 text-center">
+        <a class="blog-header-logo text-dark" href="/">{{ site.name }}</a><br>
+        <span class="blog-subtitle">Complexity Theory and More</span>
+    </div>
+    </div>
+    <br>
 </header>
     

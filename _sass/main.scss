@@ -68,3 +68,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
     font-size: 2.5em;
 }
+
+/* Mobile devices */
+@media screen and (max-width: 800px) {
+    .desktop-header{
+        display:none;
+    }
+    .mobile-header{
+        display:initial !important;
+    }
+}
