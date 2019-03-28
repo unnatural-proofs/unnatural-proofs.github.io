@@ -3,7 +3,7 @@ layout: post
 title:  "Mulmuley's PRAM"
 author: sanketh
 categories: classical complexity-theory
-tags: geometric-complexity-theory
+tags: geometric-complexity-theory mulmuleys-pram bqnc
 summary: this is super cool!!
 comments: true
 ---
