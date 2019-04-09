@@ -8,7 +8,7 @@ summary: more ranting
 comments: true
 ---
 
-This post is essentially a reference to my tweets. 
+This post is essentially a reference to my month-old tweets. 
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">1. Nature ≠ NPJQI<br>2. Risk measures like VaR were partly responsible for 2008. (<a href="https://t.co/t2T67Kas4m">https://t.co/t2T67Kas4m</a>)<br>3. Quadratic speedups for monte carlo are boring.</p>&mdash; Sanketh Menda (@sgmenda) <a href="https://twitter.com/sgmenda/status/1102208126986739715?ref_src=twsrc%5Etfw">March 3, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
