@@ -3,7 +3,7 @@ layout: post
 title:  "Oracle Separations for Quantum Statistical Zero-Knowledge"
 author: sanketh
 categories: quantum complexity-theory
-tags: qszk oracles
+tags: qszk oracles paper
 summary: i write
 comments: true
 ---
