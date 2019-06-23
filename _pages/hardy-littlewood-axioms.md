@@ -13,7 +13,7 @@ I first saw these in Béla Bollobás's Foreword to Littlewood's miscellany.[^1] 
  	<li>"[I]t was quite indifferent if one of them had not contributed the least to the contents of a paper under their common name; otherwise there would constantly arise quarrels and difficulties in that now one, and now the other, would oppose being named co-author."</li>
 </ol>
 
-
+---
 
 [^1]: Bollobás, Béla, ed. Littlewood's miscellany. Cambridge: Cambridge University Press, 1986.
 

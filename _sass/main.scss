@@ -23,6 +23,10 @@ body {
     font-size: 1.1em;
 }
 
+.blog-post-title {
+    font-family: 'Merriweather sans', sans-serif;
+}
+
 .sc {
     font-feature-settings: 'smcp';
 }
@@ -58,7 +62,7 @@ blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather sans', sans-serif;
+    font-family: 'Merriweather', serif;
     // font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
