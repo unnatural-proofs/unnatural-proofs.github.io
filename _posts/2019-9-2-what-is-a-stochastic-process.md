@@ -25,11 +25,9 @@ I am going to give a slightly more formal definition now that we know what it me
 \\]
 of $S$-valued random variables indexed by a set $\I$.
 
-In many applications, the index set is the positive real numbers and represents time. More generally, it is common to assume that $\I$ is ordered. This adds a lot of structure and allows one to talk about *increments* (how much $X(i)$ differs from $X(i+j)$) and stuff like that.
+In many applications, the index set $\I$ is the positive real numbers and represents time. More generally, it is common to assume that $\I$ is ordered. This adds a lot of structure and allows one to talk about *increments* (how much $X(i)$ differs from $X(i+j)$) and stuff like that.
 
 Also, if you have done some advanced probability, you can observe that stochastic processes generalize *Markov chains*, *random walks*, and *martingales*.
-
-But one could also think about the index set $\I$ as the boolean 
 
 I'm going to end this short post by answering a burning question: how can you use stochastic processes to prove theorems? By leveraging [stochastic calculus](https://en.wikipedia.org/wiki/Stochastic_calculus).
 
