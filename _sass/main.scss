@@ -5,33 +5,33 @@ body {
     padding: 30px; 
     padding-top: 10px;
     background-color: #fcfcfc;
-    font-family: 'Merriweather sans', sans;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-header-logo {
     font-size: 2em;
-    font-family: 'Merriweather sans', sans;
 }
 
 .blog-subtitle {
     font-style: italic;
-    font-family: 'Merriweather', serif;
 }
 
 .post-content {
-    font-family: 'Merriweather', serif;
     font-size: 1.1em;
+    font-family: 'Merriweather', serif;
 }
 
-.blog-post-title {
-    font-family: 'Merriweather sans', sans-serif;
+.footnote {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .sc {
     font-feature-settings: 'smcp';
 }
-
-.footnote {}
 
 a:link {
     text-decoration: none;
@@ -59,11 +59,6 @@ blockquote {
 }
 blockquote p {
     display: inline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
-    // font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .year {
