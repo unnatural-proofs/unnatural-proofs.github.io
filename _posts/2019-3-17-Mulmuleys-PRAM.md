@@ -80,7 +80,7 @@ I don't quite understand these results, so don't ask me about them...
 6. address of $\&u$; that is, get address of $u$.
 7. `return`
 
-If you have ever taken a computer architecture course, then the above definition should look familiar. Yes, there are some gaps in my definition; if you care, try to fill them as an exercise. One important thing to note is that---unlike real processors---here, we are assuming that all these instructions take unit time ("unit cost model"). This assumption only makes out claim stronger as only going to talk about lower bounds. 
+If you have taken a computer architecture course, then the above definition should look familiar. Yes, there are some gaps in my definition; if you care, try to fill them as an exercise. One important thing to note is that---unlike real processors---here, we are assuming that all these instructions take unit time ("unit cost model"). This assumption only makes our claim stronger as we are only going to talk about lower bounds. 
 
 **Definition** (Nonuniform Algebraic RAM over $\ZZ$)**.** This is similar to a nonuniform family of circuits. A sequence
 \begin{equation}
