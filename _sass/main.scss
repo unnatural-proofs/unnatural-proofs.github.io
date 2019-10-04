@@ -1,11 +1,11 @@
 body {  
     margin-right: auto;
     margin-left: auto; 
-    max-width: 900px; 
+    max-width: 850px; 
     padding: 30px; 
     padding-top: 10px;
     background-color: #fcfcfc;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 
 .blog-header-logo {
@@ -18,15 +18,11 @@ body {
 
 .post-content {
     font-size: 1.1em;
-    font-family: 'Merriweather', serif;
-}
-
-.footnote {
-    font-family: 'Merriweather', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: Charter, Georgia, bitstream charter, serif;
+    font-weight: 600;
 }
 
 .sc {

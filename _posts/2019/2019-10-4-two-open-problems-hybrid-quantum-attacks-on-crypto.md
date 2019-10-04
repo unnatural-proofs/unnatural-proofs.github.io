@@ -5,7 +5,7 @@ author: sanketh
 categories: cryptography
 tags: aes sike post-quantum-crypto
 summary: i crypto
-comments: false
+comments: true
 ---
 
 Today, I want to mention two open problems that I have been thinking about. These are off-shoots of my work with Matt Coudron on the power of quantum depth ([arXiv:1909.10503](https://arxiv.org/abs/1909.10503); see, also, [arXiv:1909.10303](https://arxiv.org/abs/1909.10303)).
