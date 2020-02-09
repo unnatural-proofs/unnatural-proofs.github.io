@@ -5,7 +5,7 @@ author: sanketh
 categories: quotes
 tags: ramanujan
 summary: ramanujan rocks
-comments: false
+comments: true
 ---
 
 > What he wanted, Ramanujan replied, was a pittance on which to live and work. Or, as Ramachandra Rao later put it, "He wanted leisure, in other words, simple food to be provided to him without exertion on his part, and that he should be allowed to dream on." <cite>Robert Kanigel. The Man Who Knew Infinity: A Life of the Genius Ramanujan. p. 81</cite>
