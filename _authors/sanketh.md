@@ -1,5 +1,5 @@
 ---
 short_name: sanketh
 name: Sanketh
-homepage: https://crossorigin.net
+homepage: https://snkth.com
 ---
